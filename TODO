@@ -2,3 +2,4 @@
 * Create events
 * Pause buttom.
 * Replays.
+* Use psyco only when possible.
