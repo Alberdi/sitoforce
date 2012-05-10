@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<minion name="Merfolk Fighter" imagesrc="minions/merfolkfighter.png">
+  <attributes
+    health = "18"
+    damage = "10, 14"
+    speed  = "5"
+    accuracy = "80"
+    attack_speed = "15"
+    dodge = "0"
+  />
+  <traits>
+    <trait name="aquatic" />
+  </traits>
+  <spells>
+  </spells>
+</minion>

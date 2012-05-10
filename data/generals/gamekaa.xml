@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<general name="Gamekaa" path="generals/gamekaa/" imagesrc="icon.png" image_portrait="portrait.png">
+  <attributes
+    health = "120"
+    damage = "0,0"
+    speed  = "0"
+    accuracy = "0"
+    attack_speed = "0"
+    dodge = "0"
+  />
+  <traits>
+    <trait
+      type="blind"
+    />
+  </traits>
+  <spells>
+    <spell
+      name = "Blind"
+      icon = "magic_1.png"
+      cooldown = "250"
+      targets = "enemies"
+      target_area = "all"
+      type = "ApplyStatus"
+      status_class = "BlindStatus"
+      >
+      <status_params>
+	<status_param
+	  value = "Lightness"
+	/>
+	<status_param
+	  value = "50"
+	/>
+      </status_params>
+    </spell>
+    
+    <spell
+      name = "Blind Lightning"
+      icon = "magic_2.png"
+      cooldown = "100"
+      targets = "everyone"
+      target_area = "random_bomb"
+      type = "Nuke"
+      damage = "100"
+      damage_type = "magical"
+    />
+    
+    <spell
+      name = "Treatment"
+      icon = "magic_3.png"
+      cooldown = "250"
+      targets = "enemies"
+      target_area = "all"      
+      type = "ApplyStatus"
+    />
+    
+    <spell
+      name = "Light Shield"
+      icon = "magic_4.png"
+      cooldown = "250"
+      targets = "enemies"
+      target_area = "all"      
+      type = "ApplyStatus"
+    />
+    
+  </spells>
+</general>

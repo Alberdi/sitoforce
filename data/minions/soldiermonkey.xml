@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<minion name="Soldier Monkey" imagesrc="minions/soldiermonkey.png">
+  <attributes
+    health = "20"
+    damage = "10,10"
+    speed  = "10"
+    accuracy = "90"
+    attack_speed = "10"
+    dodge = "0"
+  />
+  <traits>
+  </traits>
+  <spells>
+  </spells>
+</minion>
